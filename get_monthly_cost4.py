@@ -14,7 +14,7 @@ def get_cost(profile_name):
     # Define the time range for the query (e.g., current month)
     time_period = {
         'Start': '2025-02-01',
-        'End': '2025-02-28'
+        'End': '2025-02-27'
     }
 
     # Get cost data

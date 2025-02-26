@@ -1,13 +1,13 @@
 # Get AWS Cost via python
 
-### Prepare your server
+#### Prepare your server
 python3 -m venv .venv \
 pip3 install tabulate \
 pip install boto3 \
 python3 get_monthly_cost2.py
 
 
-## Sample output
+#### Sample output
 ```
 +---------+------------+------------+-----------------+-----------+
 | Account | Start Date |  End Date  |   Cost Amount   | Cost Unit |
